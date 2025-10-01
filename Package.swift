@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "XpointSDK",
+    name: "XpointSDK-OSX",
     platforms: [
         .macOS(.v10_15)
     ],
@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "XpointSDK",
-            url: "https://downloads.xpoint.tech/5.6.0.11615/XpointSDK.xcframework.zip",
-            checksum: "bc16acd764b9869eec62d2efcc94d35c96d1c1bd78691c002fff8a000ee5f730"
+            url: "https://downloads.xpoint.tech/5.4.1.11632/XpointSDK-OSX.zip",
+            checksum: "7f614d63ab7036a5fbbf5faa6d3ff8575c1f840d99a57b8f467389df81391c98"
         ),
     ]
 )
